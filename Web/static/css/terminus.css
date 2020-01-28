@@ -1,22 +1,39 @@
-#term{
-    position:absolute;
-    left:0px;
-    top:0px;
-    width:50%;
-    height:97%;
-    background:black;
+#term {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 50%;
+	height: 97%;
+	background: black;
 }
-#pics{
-    position:absolute;
-    right:-10px;
-    top:0px;
-    width:50%;
-    height:100%;
-    background:black;
+#pics {
+	position: absolute;
+	right: -10px;
+	top: 0px;
+	width: 50%;
+	height: 100%;
+	background: black;
+	flex-direction: column;
+	justify-content: space-between;
 }
-#scene{
-    position: absolute;
-    top: 0px;
-    left: 20px;
-    width: 95%;
+#scene {
+	position: relative;
+	float: right;
+	height: 60%;
+	margin: 2em;
+}
+#map {
+	position: relative;
+	float: right;
+	height: 30%;
+	margin: 2em;
+	overflow: hidden;
+	height: 30%;
+	width: 400px;
+	justify-content: flex-end;
+	margin-left: auto;
+}
+
+#map__img {
+	transform: translate(-510px, -50px);
 }
